@@ -1,0 +1,213 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+    v2.0 | 20110126
+    License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: "";
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+h1 {
+    text-align: center;
+    padding: 2rem;
+    font-size: 2rem;
+    background-color: antiquewhite;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 2rem 0;
+}
+p {
+  font-size: 1.4rem;
+  margin: 0 0 2rem 0;
+}
+.btn {
+  display: inline-block;
+  padding: 0.8rem;
+  background-color: #000;
+  font-size: 1.2rem;
+  color: #fff;
+  border-radius: 0.6rem;
+}
+
+ul {
+  margin: 2rem 0;
+  font-size: 1.3rem;
+  border-bottom: 2px solid #333;
+  padding: 1rem;
+}
+li {
+  list-style-type: none;
+}
+.card-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.charContainer{
+  position: relative;
+  width: 100%;
+  background-color: #3b898a;
+  display: none;
+}
+
+.card{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2rem 0 ;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+  background-color: #fff;
+  padding: 2rem;
+  border: 1px dashed crimson;
+  margin-bottom: 2rem;
+}
+.heading {
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.charContainer span {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
